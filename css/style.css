@@ -431,6 +431,7 @@ a:focus {
   background-color: #fc9e85;
   -webkit-transition: all .1s;
   transition: all .1s;
+  height: 400px;
 }
 
 .product_section .product_container .box .detail-box {
@@ -446,6 +447,8 @@ a:focus {
           align-items: center;
   margin-top: 25px;
   color: #ffffff;
+  
+  
 }
 
 .product_section .product_container .box .detail-box h5 {
@@ -470,6 +473,7 @@ a:focus {
   background-color: #ffffff;
   border-radius: 100%;
   margin-top: 5px;
+
 }
 
 .product_section .product_container .box:hover, .product_section .product_container .box.active {

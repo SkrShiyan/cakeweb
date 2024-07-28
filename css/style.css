@@ -272,6 +272,7 @@ a:focus {
 }
 
 .slider_section .img_container {
+  /* height: 620px; */
   background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -653,6 +654,7 @@ a:focus {
   color: #ffffff;
   border-radius: 30px;
   margin-top: 35px;
+  margin-bottom: 100px;
   border: none;
 }
 

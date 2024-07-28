@@ -6227,6 +6227,13 @@ a.close.disabled {
 .carousel-inner {
   position: relative;
   width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+.carousel-inner1 {
+  position: relative;
+  width: 100%;
+  /* height: 645px; */
   overflow: hidden;
 }
 
@@ -6256,10 +6263,18 @@ a.close.disabled {
   }
 }
 
+/* .carousel-item1.active,
+.carousel-item1-next,
+.carousel-item1-prev {
+  display: block;
+  height: 400px;
+} */
+
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
   display: block;
+  height: 300px;
 }
 
 .carousel-item-next:not(.carousel-item-left),

@@ -532,6 +532,7 @@ a:focus {
 }
 
 .client_section .client_box {
+  height: 400px;
   background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;

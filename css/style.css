@@ -54,7 +54,20 @@ body {
 }
 
 /*header section*/
+.hero_area1 {
+  height:10vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: linear-gradient(130deg, #fb8263 73%, #fdc5b1 73%);
+}
 .hero_area {
+  align-items: center;
   height: 100vh;
   position: relative;
   display: -webkit-box;
@@ -143,7 +156,15 @@ a:focus {
 }
 
 .custom_nav-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   z-index: 99999;
+  /* z-index: 99999; */
+  background-color: #fb8263;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -201,6 +222,7 @@ a:focus {
 /*end header section*/
 /* slider section */
 .slider_section {
+  
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
